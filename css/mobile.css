@@ -1,0 +1,349 @@
+@media screen and (max-width:480px) {
+
+    .contenedorbanner {
+        overflow: hidden;
+    }
+
+    .banner {
+        height: 250px;
+        width: initial;
+        animation-duration: 20s;
+        animation-name: desplazarbanner;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        animation-direction: alternate;
+        position: relative;
+    }
+
+    @keyframes desplazarbanner {
+        from {
+            left: 0px;
+        }
+
+        to {
+            left: -690px;
+        }
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .contacto__contenedor {
+        width: 70%;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width:480px) {
+
+    #contacto {
+        margin: 50px 0 0 0;
+    }
+
+    .contacto__info {
+        width: 80%;
+        margin: 0px 10%;
+    }
+
+    .contacto__contenedor {
+        width: 90%;
+    }
+
+    .contacto__texto {
+        font-size: .85rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    .footer__contenedor {
+        flex-wrap: wrap;
+    }
+
+    .footer__logos {
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width:1024px) {
+
+    .header__menu .header__items {
+        display: none;
+    }
+
+        .header__menu .header__items:last-child, .header__items:nth-child(5) {
+            display: block;
+        }
+}
+
+@media screen and (max-width: 480px) {
+
+    .header__menu {
+        display: none;
+    }
+
+    .header__logo {
+        width: 60px;
+        height: 60px;
+        margin: 20px auto 20px 20px;
+    }
+
+    .contacto__icon {
+        display: block;
+        width: 50px;
+        height: 50px;
+        margin: 25px 20px 25px auto;
+    }
+}
+
+@media screen and (max-width:1024px) {
+
+    .hobbies__item {
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    .hobbies__item {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:1024px) {
+
+    .presentacion {
+        margin: 20px 10% 50px 10%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .presentacion__foto {
+        width: 40%;
+        height: auto;
+        margin: 30px;
+        order: -1;
+        border: 15px dotted black;
+    }
+
+    .presentacion__info {
+        width: 100%;
+        margin: 0;
+        justify-content: center;
+    }
+
+    .presentacion__titulo {
+        text-align: center;
+    }
+
+    .presentacion__texto {
+        text-align: center;
+    }
+
+    .presentacion__lista {
+        justify-content: space-evenly;
+    }
+
+    .presentacion__items {
+        margin-top: 15px;
+    }
+}
+
+
+@media screen and (max-width:480px) {
+
+    .presentacion__foto {
+        width: 100%;
+        border: 15px double black;
+    }
+
+    .presentacion__titulo {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:1024px) {
+
+    .proyectos__lista {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .proyectos__item:nth-child(2n) .proyectos__item__imagen {
+        order: 0;
+    }
+
+    .proyectos__item:nth-child(2n) .proyectos__item__titulo {
+        text-align: center;
+    }
+
+    .proyectos__item:nth-child(2n) .proyectos__item__descripcion {
+        text-align: center;
+    }
+
+    .proyectos__item {
+        width: 60%;
+        background-color: #1e1e1e;
+        padding: 19px;
+        margin: 50px auto 0 auto;
+        border-radius: 15px;
+    }
+
+    .proyectos__item__info {
+        height: auto;
+        width: 100%;
+    }
+
+    .proyectos__item__imagen {
+        height: auto;
+        width: 100%;
+    }
+
+    .proyectos__item__titulo {
+        text-align: center;
+        margin-top: 20px;
+        color: whitesmoke;
+    }
+
+    .proyectos__item__descripcion {
+        text-align: center;
+        color: whitesmoke;
+    }
+
+    .proyectos__botones {
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .boton-demo {
+        background-color: #ff5500;
+        margin: 0px 5px;
+        border: none;
+        font-weight: 500;
+        width: 45%;
+        text-align: center;
+    }
+
+    .boton-repositorio {
+        margin: 0px 5px;
+        background-color: rgb(255, 255, 255);
+        color: black;
+        border: none;
+        font-weight: 500;
+        width: 45%;
+        text-align: center;
+    }
+
+        .boton-repositorio:hover {
+            background-color: black;
+            color: whitesmoke;
+        }
+}
+
+@media screen and (max-width:600px) {
+
+    .proyectos__item:nth-child(1) {
+        margin: 40px auto 0 auto;
+    }
+
+    .proyectos__item__imagen {
+        width: 100%;
+        height: auto;
+        box-shadow: none;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+
+    .proyectos__item {
+        margin: 40px auto 0 auto;
+        width: 80%;
+        background-color: white;
+        padding-top: 15px;
+        border-radius: 15px;
+        padding-bottom: 15px;
+    }
+
+    .proyectos__item__info {
+        height: 150px;
+    }
+
+    .proyectos__item:nth-child(2n) .proyectos__item__imagen {
+        order: 0;
+    }
+
+    .proyectos__item:nth-child(2n) .proyectos__item__titulo {
+        text-align: center;
+    }
+
+    .proyectos__item:nth-child(2n) .proyectos__item__descripcion {
+        text-align: center;
+    }
+
+    .proyectos__item__titulo {
+        font-size: 1.2rem;
+        text-align: center;
+        margin-top: 15px;
+        color: black;
+    }
+
+    .proyectos__item__descripcion {
+        text-align: center;
+        color: black;
+    }
+
+    .proyectos__botones {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .boton-demo {
+        border-radius: 10px;
+        width: 100%;
+        text-align: center;
+        background-color: #ff5500;
+        margin-top: 5px;
+    }
+
+    .boton-repositorio {
+        border-radius: 10px;
+        margin: 0px 5px;
+        background-color: rgb(26, 26, 26);
+        color: whitesmoke;
+        border: none;
+        font-weight: 500;
+        width: 100%;
+        text-align: center;
+    }
+
+    .boton-repositorio:hover {
+        background-color: black;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    .sobreMi__titulo {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+
+    .skills__item {
+        width: 120px;
+    }
+}
+
+@media screen and (max-width:480px) {
+
+    .skills__item {
+        width: 25%;
+        margin: 5px;
+    }
+
+        .skills__item:hover {
+            transform: scale(1, 1);
+        }
+}
